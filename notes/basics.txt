@@ -1,0 +1,136 @@
+* applications
+  - native application
+    - faster
+    - platform specific 
+  - web site/web application
+    - html, css and JS
+    - slower
+    - platform independent
+    - special application: web browser
+
+* web browser
+  - native application to browser a web site
+  - parsing HTML, CSS and JS
+  - parsing
+    - loading the file/contents
+    - understanding the code
+    - executing/interpreting the code
+  - HTML: used to design the web site
+  - CSS: used to decorate the web site
+  - JS: used to add programming logic in website
+  - components
+    - Network component
+    - Rendering/Layout Engine
+    - JavaScript Execution Engine
+    - User Interface
+    - Web/Data Storage
+  - e.g.
+    - chrome
+      - rendering engine: blink
+      - JS Execution Engine: V8
+    - firefox
+      - rendering engine: Gecko
+      - JS Execution Engine: SpiderMonkey
+    - safari
+      - rendering engine: WebKit
+      - JS Execution Engine: NitroJS
+    - opera
+      - rendering engine: blink
+      - JS Execution Engine: -
+    - Edge
+      - rendering engine: EdgeHTML
+      - JS Execution Engine: Chakra
+    
+
+* Server
+  - application/process which serves something 
+  - types
+    - web server
+      - to serve web requests
+      - e.g.
+        - apache
+        - glass fish
+        - express
+        - MS IIS (Internet Information System/Server)
+    - database server
+      - used to store the data permanently
+      - e.g.
+        - RDBMS
+          - Oracle
+          - MySQL
+          - IBM DB2
+          - PosGre sQL
+          - MS SQL Server
+        - No SQL
+          - Mongo DB
+          - Cassandra
+          - CouchDB
+          - CouchBase
+          - Firebase
+          - redis
+          - Oracle KV Store
+    - file server
+      - used to keep the files
+    - application server
+      - application + web server
+
+* Status Code:
+  - 1xx: information / debugging messages
+  - 2xx: SUCCESS (200, 201)
+  - 3xx: Migration (300, 301)
+  - 4xx: Client Error (400, 401, 404)
+  - 5xx: Server Error (500, 501)
+
+* URL
+  - Uniform Resource Locator
+  - Resource: any file hosted/copied on the server
+  - e.g.
+    - https://google.co.in:80
+    - https://1.2.3.4
+    - https://1.2.3.4:8080
+    - https://google.co.in/page1.html
+    - https://google.co.in/files/page1.html?name=test
+    - http://google.co.in/page1.html#top
+  - components
+    - scheme
+      - protocol used to communicate with the server
+      - e.g. http, https, file, ftp, tftp
+      - default: HTTP
+    - domain name or IP address of the server (*)
+    - server port:
+      - port number of the web server process running on the server
+      - port numbers
+        - 80: http
+        - 443: https
+        - 22: ssh
+        - 53: dns
+        - 20 and 21: ftp
+        - 23: telnet
+      - default: 80
+    - file name or path
+    - query string
+      - used to pass input to the web page
+      - e.g. ?name=test
+    - hash component (proxy component)
+      - used to link a part of a Web page
+
+
+* IP address
+  - reserved
+    - 127.0.0.1: loopback address (points to the same machine)
+      - alias of localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
